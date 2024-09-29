@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+	box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+body {
+	background:radial-gradient(ellipse at center, rgba(255,254,234,1) 0%, rgba(255,254,234,1) 35%, #B7E8EB 100%);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 30px 0;
+	min-height: 100vh;
+}
+
+img {
+    position: relative;
+	max-width: 100%;
+	margin: 2rem;
+	border-radius: 1rem;
+}
+
+p {
+	margin-bottom: 5px;
+}
+
+h3 {
+	margin: 0;
+}
+
+h5 {
+	margin: 10px 0;
+}
+
+li {
+	margin-bottom: 0;
+}
+
+.meal {
+	margin: 20px 0;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.videoWrapper {
+	position: relative;
+	/* padding-bottom: 56.25%; 
+	padding-top: 25px;*/
+	width: 50rem;
+	
+}
+
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 50rem;
+	height: 30rem;
+}
+
+
+li{
+	width: 20rem;
+	align-items: center;
+}
+
+#video{
+	display: grid;
+	align-items: center !important;
+	justify-content: center !important;
+}
+
+.columnsseven{
+	margin: 5rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	padding-bottom: 2rem;
+	width: 60rem;
+	border-radius: 50px;
+background:transparent;
+border-radius: 25px;
+box-shadow:  47px 47px 94px #cacaca,
+             -47px -47px 94px #f6f6f6;
+}
+
+/* Button */
+.button-primary{
+	width: 130px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgb(15, 15, 15);
+	border: none;
+	color: white;
+	font-weight: 600;
+	gap: 8px;
+	cursor: pointer;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.103);
+	position: relative;
+	overflow: hidden;
+	transition-duration: .3s;
+	border-radius: 1rem;
+  }
+  
+  
+  .button-primary::before {
+	width: 130px;
+	height: 130px;
+	position: absolute;
+	content: "";
+	background-color: white;
+	border-radius: 50%;
+	left: -100%;
+	top: 0;
+	transition-duration: .3s;
+	mix-blend-mode: difference;
+  }
+  
+  .button-primary:hover::before {
+	transition-duration: .3s;
+	transform: translate(100%,-50%);
+	border-radius: 0;
+  }
+  
+  .button-primary:active {
+	transform: translate(5px,5px);
+	transition-duration: .3s;
+  }
+
+
+  /* Ingredients */
+  /* #columnsfive{
+	margin: 2rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	padding-bottom: 2rem;
+	width: 55rem;
+	border-radius: 50px;
+background:transparent;
+box-shadow:  20px 20px 50px #bebebe,
+             -20px -20px 50px #ffffff;
+  } */
+
+  /* Video */
+  /* .video{
+	margin: 5rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	padding-bottom: 2rem;
+	width: 57rem;
+	height: 37rem;
+	border-radius: 50px;
+background:transparent;
+box-shadow:  20px 20px 50px #bebebe,
+             -20px -20px 50px #ffffff;
+  } */
